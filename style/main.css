@@ -1,4 +1,4 @@
-/** Declaração de variáveis **/
+/** Declaraï¿½ï¿½o de variï¿½veis **/
 :root{
     --vermelho: #E50914;
     --preta: #141414;
@@ -15,6 +15,7 @@
 body {
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
 }
 
 header .container{
@@ -39,4 +40,25 @@ header nav a{
 
 header nav a:hover{
     color: #fff;
+}
+
+/* Filme principal */
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-pikachu.jpg');
+    background-size: cover;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 40px;
 }
