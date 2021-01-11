@@ -14,7 +14,7 @@
 
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
 }
 
@@ -36,6 +36,7 @@ header nav a{
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
+    font-size: 13px;
 }
 
 header nav a:hover{
@@ -53,6 +54,7 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 5px;
 }
 
 .filme-principal .descricao{
